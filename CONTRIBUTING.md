@@ -21,7 +21,11 @@ Thank you for considering contributing to the Real Estate Agent Service project!
 
 5. **Commit Your Changes**: Commit your changes with a clear and concise message.
    ```bash
-   git commit -m "Add feature xyz"
+   git commit -m "feat: implement Monnify wallet integration" \
+-m "- Create D1 schema for transaction logs" \
+-m "- Add webhook handler for payment confirmation" \
+-m "- Update Telegram bot to notify user on success"
+
    ```
 
 6. **Push to GitHub**: Push your changes back to your fork on GitHub.
